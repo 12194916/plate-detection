@@ -2,6 +2,39 @@
 
 An automated license plate detection and classification system using deep learning models. The system processes vehicle images, classifies them as interior or exterior views, detects license plates, and automatically blurs them for privacy protection.
 
+## Sample Results
+
+Here are some examples of the license plate detection system in action:
+
+### Detected License Plates (Exterior Views)
+
+<table>
+  <tr>
+    <td><img src="outputs/exterior/IMG_8288.jpg" width="400"/></td>
+    <td><img src="outputs/exterior/IMG_7637.jpg" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/exterior/IMG_8289.jpg" width="400"/></td>
+    <td><img src="outputs/exterior/IMG_9634.jpg" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/exterior/IMG_8286.jpg" width="400"/></td>
+    <td><img src="outputs/exterior/IMG_7640.jpg" width="400"/></td>
+  </tr>
+</table>
+
+*Red bounding boxes indicate detected license plates with confidence scores. Plates are automatically blurred for privacy protection.*
+
+### Processing Logs
+
+![Processing Logs](logs.png)
+
+*Detailed logging showing interior/exterior classification and detection results*
+
+### Web Interface Example
+
+![Web Sample](web-sample.png)
+
 ## Features
 
 - **Dual Processing Modes**:

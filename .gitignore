@@ -29,7 +29,6 @@ wheels/
 
 # Data files (large datasets)
 data/
-outputs/
 
 # IDE
 .vscode/
